@@ -1,11 +1,12 @@
 body {
-  background-color: cadetblue;
+  background-color: #102027;
 }
 .cell {
   background-color: ghostwhite;
 }
 
 .container {
+  margin-top: 3%;
   text-align: center;
 }
 
@@ -21,19 +22,21 @@ body {
   margin: 3px 0px;
   font-size: 176px;
   border-radius: 4px;
+  border: 0px;
 }
 
 .startOver {
-  display: block;
-  margin: 5% auto;
-  font-size: 1.5rem;
-  background-color: palegoldenrod;
+  background-color: #b2ebf2;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 0;
+  box-shadow: none;
+  display: block;
+  font-size: 1.5rem;
+  margin: 3% auto;
   padding: 5px;
 }
 
 .startOver:hover {
-  background-color: lightgoldenrodyellow;
+  background-color: #e5ffff;
   cursor: pointer;
 }
