@@ -6,8 +6,8 @@ function convertToBoard(container) {
   const columns = container.children;
   for (let colIdx = 0; colIdx < 3; colIdx++) {
     for (let rowIdx = 0; rowIdx < 3; rowIdx++) {
+      // set IDs on each cell in the format x|y
       columns[colIdx].children[rowIdx].id = `${rowIdx}|${colIdx}`;
-      columns[colIdx].children[rowIdx].className = 'cell';
     }
   }
 }
